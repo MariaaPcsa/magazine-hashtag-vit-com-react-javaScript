@@ -1,4 +1,4 @@
-🛍️ Loja Virtual - Magazine Hashtag
+🛍️ Loja Virtual - Magazine Hashtag em desenvolvimento
 
 Uma loja virtual desenvolvida com React, Vite e Tailwind CSS, com foco em interface moderna, responsiva e amigável. O projeto utiliza FontAwesome para ícones e PostCSS para otimização do CSS.
 
