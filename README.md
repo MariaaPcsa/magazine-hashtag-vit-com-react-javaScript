@@ -1,5 +1,23 @@
 # React + Vite
 
+npm install -D @tailwindcss/postcss
+
+1️⃣ Reinstale os pacotes do FontAwesome
+npm install @fortawesome/react-fontawesome @fortawesome/fontawesome-svg-core @fortawesome/free-so
+
+2️⃣ Limpe o cache do Vite
+rm -rf node_modules
+rm package-lock.json
+npm cache clean --force
+npm install
+
+Ou, no Windows PowerShell:
+
+rd /s /q node_modules
+del package-lock.json
+npm cache clean --force
+npm install
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
