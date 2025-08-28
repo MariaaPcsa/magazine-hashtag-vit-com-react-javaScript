@@ -12,13 +12,12 @@ const ProductCard = ({ id, name, brand, image, feminine, price }) => {
         className="group-hover:scale-110 rounded-lg mx-4 my-3 transition duration-300"
       />
       <div className="mx-4 space-y-1">
-  <p className="text-xs uppercase tracking-wide text-slate-500">{brand}</p>
-  <p className="text-base font-medium text-gray-900">{name}</p>
-  <p className="text-sm font-semibold text-green-600">
-  {price.toLocaleString("pt-BR", { style: "currency", currency: "BRL" })}
-</p>
-
-</div>
+        <p className="text-xs uppercase tracking-wide text-slate-500">{brand}</p>
+        <p className="text-base font-medium text-gray-900">{name}</p>
+        <p className="text-sm font-semibold text-green-600">
+          {price.toLocaleString("pt-BR", { style: "currency", currency: "BRL" })}
+        </p>
+      </div>
 
       <button
         className="bg-slate-950 rounded-md mx-4 my-1 text-slate-100 hover:bg-slate-800"

@@ -8,6 +8,7 @@ import { faUser } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 import { faCartShopping } from "@fortawesome/free-solid-svg-icons/faCartShopping";
 
+
 const UserButtons = () => {
   const [amountOfItems, setAmountOfItems] = useState(0);
   const { toggleCartOpen, cartItems } = useCartContext();
